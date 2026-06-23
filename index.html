@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dương Nguyễn - Portfolio Prompt To Play 2026</title>
+  <meta name="description" content="Portfolio của Dương Nguyễn - Software Engineer, AI Product Builder, Puzzle Game Developer." />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --card-soft: #1f2937;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --accent-2: #a78bfa;
+      --border: rgba(255, 255, 255, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 35%),
+                  radial-gradient(circle at top right, rgba(167, 139, 250, 0.16), transparent 35%),
+                  var(--bg);
+      padding: 32px 16px;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 56px 32px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(17, 24, 39, 0.92), rgba(31, 41, 55, 0.82));
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+      margin-bottom: 28px;
+    }
+
+    .tag {
+      display: inline-block;
+      color: #082f49;
+      background: var(--accent);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 7vw, 64px);
+      line-height: 1.05;
+      letter-spacing: -1.5px;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      font-size: clamp(18px, 3vw, 24px);
+      color: var(--muted);
+    }
+
+    section {
+      padding: 30px;
+      margin-bottom: 24px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(17, 24, 39, 0.82);
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 18px;
+      color: #ffffff;
+    }
+
+    h3 {
+      font-size: 21px;
+      margin: 22px 0 10px;
+      color: var(--accent);
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 10px 0 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+    }
+
+    .skill-card, .project-card {
+      padding: 20px;
+      border-radius: 16px;
+      background: var(--card-soft);
+      border: 1px solid var(--border);
+    }
+
+    .project-title {
+      font-size: 24px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .genre {
+      display: inline-block;
+      color: var(--accent-2);
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-top: 12px;
+    }
+
+    .highlight {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 22px 0 8px;
+    }
+
+    @media print {
+      body {
+        background: #ffffff;
+        color: #111827;
+        padding: 0;
+      }
+
+      header, section {
+        background: #ffffff;
+        color: #111827;
+        box-shadow: none;
+        border-color: #d1d5db;
+        break-inside: avoid;
+      }
+
+      .subtitle, p, li, footer {
+        color: #374151;
+      }
+
+      h1, h2, .project-title {
+        color: #111827;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="tag">Portfolio – Prompt To Play 2026</span>
+      <h1>Dương Nguyễn</h1>
+      <p class="subtitle">Software Engineer | AI Product Builder | Puzzle Game Developer</p>
+    </header>
+
+    <section>
+      <h2>Giới thiệu</h2>
+      <p>
+        Tôi là kỹ sư phần mềm với kinh nghiệm xây dựng sản phẩm web và ứng dụng AI.
+        Trong thời gian gần đây tôi tập trung nghiên cứu và phát triển các trò chơi giải đố
+        <span class="highlight">Puzzle Game</span> kết hợp AI nhằm tạo ra trải nghiệm chơi có tính tương tác
+        và khả năng tái chơi cao.
+      </p>
+      <p>Tôi đặc biệt quan tâm đến:</p>
+      <ul>
+        <li>Puzzle Design</li>
+        <li>Logic Systems</li>
+        <li>Procedural Content Generation</li>
+        <li>AI-driven Gameplay</li>
+        <li>Human-AI Interaction</li>
+      </ul>
+      <p>
+        Mục tiêu của tôi là xây dựng những trò chơi mà AI không chỉ là công cụ hỗ trợ phát triển
+        mà còn là một phần của gameplay.
+      </p>
+    </section>
+
+    <section>
+      <h2>Kỹ năng</h2>
+      <div class="grid">
+        <div class="skill-card">
+          <h3>Lập trình</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>ReactJS</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>HTML5/CSS3</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Game Development</h3>
+          <ul>
+            <li>Puzzle Design</li>
+            <li>Gameplay Systems</li>
+            <li>State Management</li>
+            <li>Level Design</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>AI</h3>
+          <ul>
+            <li>OpenAI API</li>
+            <li>Prompt Engineering</li>
+            <li>AI Content Generation</li>
+            <li>AI Puzzle Generation</li>
+            <li>AI-assisted Storytelling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Dự án nổi bật</h2>
+
+      <article class="project-card">
+        <h3 class="project-title">1. Command Logic</h3>
+        <span class="genre">Tactical Puzzle Game</span>
+        <p>
+          Command Logic là một trò chơi giải đố chiến thuật trên lưới, nơi người chơi điều khiển
+          ba robot với các kỹ năng khác nhau để hoàn thành nhiệm vụ trong số lượt giới hạn.
+        </p>
+
+        <div class="two-column">
+          <div>
+            <h3>Gameplay</h3>
+            <ul>
+              <li>Lập kế hoạch di chuyển</li>
+              <li>Điều phối robot</li>
+              <li>Vượt qua drone tuần tra</li>
+              <li>Tương tác với cửa, công tắc và vật cản</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Điểm nổi bật</h3>
+            <ul>
+              <li>Multi-agent puzzle solving</li>
+              <li>Turn-based tactical gameplay</li>
+              <li>AI Mission Generator</li>
+              <li>Dynamic level creation bằng AI</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="two-column">
+          <div>
+            <h3>Công nghệ</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>OpenAI API</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Vai trò</h3>
+            <ul>
+              <li>Thiết kế gameplay</li>
+              <li>Thiết kế level system</li>
+              <li>Xây dựng game logic</li>
+              <li>Tích hợp AI tạo màn chơi</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" style="margin-top: 18px;">
+        <h3 class="project-title">2. Mật Hình</h3>
+        <span class="genre">Word Puzzle Game</span>
+        <p>
+          Mật Hình là trò chơi đố hình đoán chữ tiếng Việt. Người chơi quan sát các hình ảnh,
+          suy luận ý nghĩa và ghép chúng lại thành từ hoặc cụm từ chính xác.
+        </p>
+
+        <div class="two-column">
+          <div>
+            <h3>Điểm nổi bật</h3>
+            <ul>
+              <li>Puzzle dựa trên ngôn ngữ tiếng Việt</li>
+              <li>Hệ thống gợi ý AI</li>
+              <li>Hình nền tạo bởi AI</li>
+              <li>Hệ thống xoay vòng câu đố ngẫu nhiên</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Công nghệ</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Pollinations AI</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Vai trò</h3>
+        <ul>
+          <li>Thiết kế gameplay</li>
+          <li>Xây dựng hệ thống câu đố</li>
+          <li>Tích hợp AI</li>
+          <li>Thiết kế trải nghiệm người dùng</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Mục tiêu</h2>
+      <p>Tôi muốn tham gia Prompt To Play để:</p>
+      <ul>
+        <li>Nâng cao kỹ năng phát triển game.</li>
+        <li>Học cách tích hợp AI vào gameplay thực tế.</li>
+        <li>Học hỏi từ cộng đồng phát triển game.</li>
+        <li>Xây dựng một sản phẩm game có tính ứng dụng cao.</li>
+        <li>Biến ý tưởng này thành một sản phẩm hoàn chỉnh trong tương lai.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2026 Dương Nguyễn. Portfolio for Prompt To Play.</p>
+    </footer>
+  </main>
+</body>
+</html>
